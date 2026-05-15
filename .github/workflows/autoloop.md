@@ -63,6 +63,7 @@ safe-outputs:
   remove-labels:
     target: "*"
     max: 2
+  runs-on: self-hosted
 
 checkout:
   fetch: ["*"]
